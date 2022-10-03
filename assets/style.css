@@ -1,0 +1,97 @@
+body {
+	background: linear-gradient(-45deg, #041C32, #04293A, #064663, #ECB365);
+background-attachment: fixed;
+background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  padding: 18px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+       h5, h1, p, h6{
+             color: #F5F5F5;
+             text-shadow: 2px 2px 30px black;
+       }
+       .name{
+           color: #F5F5F5;
+           text-shadow: 2px 1px 1px black;
+       }
+       #icon{
+           float: left;
+           color:#F5F5F5;
+           text-shadow: 2px 2px 30px black;
+           padding-right: 25px;
+       }
+       .footer{
+           margin-top: 5% !important;
+           margin-bottom: 10px;
+       }
+       @media (max-width: 479px) {
+            .footer{
+            margin-top: 35% !important;
+            }
+       }
+
+       /* bootstrap card */
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#064663,#041C32);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#041C32,#04293A);
+}
+
+img {
+		border:2px solid #2ed8b6;
+	     }
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgb(5, 161, 0);
+    box-shadow: 0 1px 2.94px 0.06px rgba(5, 161, 0);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
